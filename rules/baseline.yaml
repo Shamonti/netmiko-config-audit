@@ -1,0 +1,9 @@
+rules:
+  - {id: CISCO-001, vendor: cisco_ios, type: must_contain, value: "service password-encryption"}
+  - {id: CISCO-002, vendor: cisco_ios, type: must_not_contain, value: "transport input telnet"}
+  - {id: CISCO-003, vendor: cisco_ios, type: must_match, value: '^logging host \d+\.\d+\.\d+\.\d+'}
+  - {id: CISCO-004, vendor: cisco_ios, type: must_not_match, value: '^snmp-server community \S+ RW'}
+  - {id: HUAWEI-001, vendor: huawei_vrp, type: must_contain, value: "undo telnet server enable"}
+  - {id: HUAWEI-002, vendor: huawei_vrp, type: must_not_contain, value: "protocol inbound telnet"}
+  - {id: HUAWEI-003, vendor: huawei_vrp, type: must_match, value: '^info-center loghost \d+\.\d+\.\d+\.\d+'}
+  - {id: HUAWEI-004, vendor: huawei_vrp, type: must_not_match, value: '^snmp-agent community write'}

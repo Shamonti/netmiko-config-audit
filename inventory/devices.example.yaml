@@ -1,0 +1,12 @@
+# Synthetic example. Credentials come from environment variables only.
+devices:
+  - name: cisco_ios_edge1
+    host: 192.0.2.10
+    device_type: cisco_ios
+    username_env: AUDIT_USER
+    password_env: AUDIT_PASS
+  - name: huawei_vrp_core1
+    host: 198.51.100.20
+    device_type: huawei
+    username_env: AUDIT_USER
+    password_env: AUDIT_PASS
