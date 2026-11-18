@@ -6,7 +6,7 @@ Portfolio project 1. A public, open-source tool that pulls network device config
 Show recruiters and clients one working, well-built tool that combines network automation (Netmiko) with DevOps practice (Docker, tests, CI).
 
 ## 2. Hard rules
-- No company data: no real IPs, hostnames, configs, client names, or LUMEN code.
+- No company data: no real IPs, hostnames, configs, client names.
 - All sample configs are synthetic and written from scratch.
 - Credentials only from environment variables. Never in code, YAML, or git history.
 - `.gitignore` covers `inventory/devices.yaml`, `.env`, `reports/`.
